@@ -2,11 +2,15 @@
 #contenitore-logo {
     background-image: url(./img/pattern.png);
     background-color: aqua;
-    background-repeat:repeat;
+    background-repeat:repeat; 
 }
 
 #logo-booleaners {
     width:20%; 
     padding-bottom: 10px;
-    padding-top: 30px;
+    padding-top: 60px;
+}
+
+*{
+    margin: 0%;
 }
