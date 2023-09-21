@@ -1,11 +1,12 @@
 
-#contenitore-logo {
+#contenitore_logo {
     background-image: url(./img/pattern.png);
     background-color: #4ea0ff;
-    background-repeat:repeat; 
+    background-repeat:repeat;
+    background-size: 39%; 
 }
 
-#logo-booleaners {
+#logo_booleaners {
     width:20%; 
     padding-bottom: 10px;
     padding-top: 60px;
@@ -13,4 +14,22 @@
 
 *{
     margin: 0%;
+}
+
+.titolo_header {
+    font-size:55px;
+}
+
+.sottotitolo_header {
+    font-size: 25px; color: grey;
+    display:inline-block;
+}
+
+.booleaner_blu {
+    font-size: 25px; color: #4ea0ff;
+    display:inline-block;
+}
+
+.data_header {
+    font-size: 15px; color: grey;
 }
