@@ -10,10 +10,13 @@
     width:20%; 
     padding-bottom: 10px;
     padding-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 *{
-    margin: 0%;
+    margin:0;
+    box-sizing: border-box;
 }
 
 .titolo_header {
@@ -32,10 +35,24 @@
 
 .data_header {
     font-size: 15px; color: grey;
+    padding-bottom: 25px;
+}
+
+.padding{
+    padding-bottom: 25px;
 }
 
 main {
     font-size: 22px;
+}
+
+.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+ul{
+    padding-inline-start: 20px;
 }
 
 .titles_table{
@@ -61,4 +78,24 @@ table{
 
 .titolo_footer{
     color: grey;
+    padding-bottom: 20px;
+}
+
+.monitor{
+    background-image: url(./img/monitor.jpg);
+}
+
+.graph{
+    background-image: url(./img/graph.jpg);
+}
+
+.monitor, .graph{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
 }
