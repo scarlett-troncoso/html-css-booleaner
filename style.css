@@ -38,20 +38,17 @@ main {
     font-size: 22px;
 }
 
-.testo_corto, .testo_lungo{
-    display: inline-block;
-}
-
-.testo_corto{
-    width: 22%;
-}
-.testo_lungo{
-    width: 55%;
-}
-
 .titles_table{
     background-color: #44b7fa;
     color: white;
+}
+
+table{
+    border-spacing: 0;
+}
+
+.large{
+    width: 50%;
 }
 
 .content_table{
